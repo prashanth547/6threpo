@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        Maven 'M2_HOME'
+        MAVEN_HOME 'M2_HOME'
     }
     options {
         checkoutToSubdirectory('source')
