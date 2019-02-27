@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket  = "bucket"
+    bucket  = "prashanthbucket547"
     key     = "dev.json"
-    region  = "us-west-2"
+    region  = "us-east-2"
     profile = "profile"
   }
 }
